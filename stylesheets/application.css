@@ -752,7 +752,7 @@ nav {
 /* line 211, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .works-details {
   padding: 45px 45px;
-  background: linear-gradient(-270deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.25));
+  background: linear-gradient(-270deg, rgba(149, 224, 229, 0.5), rgba(149, 224, 229, 0.25));
   position: absolute;
   z-index: 1;
   bottom: 0;
