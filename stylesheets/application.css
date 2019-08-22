@@ -497,9 +497,10 @@ img, table, video {
 
 /* line 10, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 html {
-  height: 100%; }
+  height: 100%;
+  scroll-behavior: smooth; }
 
-/* line 12, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 13, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 body {
   min-height: 100%;
   background: #fafafa;
@@ -508,109 +509,109 @@ body {
   scroll-snap-type: y mandatory;
   scroll-snap-align: start;
   scroll-snap-stop: always; }
-  /* line 20, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 21, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   body.fix {
     display: inline-block;
     width: 100%; }
   @media screen and (max-width: 767px) {
-    /* line 12, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 13, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     body {
       scroll-snap-type: y proximity; } }
 
-/* line 29, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 30, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 section {
   min-height: 100vh;
   height: 100%;
   scroll-snap-align: start;
   display: flex; }
   @media screen and (max-width: 767px) {
-    /* line 29, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 30, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     section {
       flex-wrap: wrap;
       height: auto; } }
 
-/* line 38, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 39, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 header {
   flex: 0 0 50vw;
   height: 100%;
   display: flex;
   top: 0; }
-  /* line 43, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 44, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   header .flex-center {
     text-align: center; }
   @media screen and (max-width: 767px) {
-    /* line 38, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 39, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     header {
       flex: 1 0 100vw;
       height: auto;
       min-height: 100vh; } }
 
-/* line 50, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 51, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .flex-center {
   display: inline-block;
   margin: auto;
   width: 100%; }
 
-/* line 55, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 56, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 main {
   display: flex;
   flex: 0 0 50vw;
   height: 100%; }
-  /* line 59, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 60, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   main p {
     text-align: justify; }
   @media screen and (max-width: 767px) {
-    /* line 55, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 56, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     main {
       flex: 1 0 100vw;
       height: auto;
       min-height: 100vh; } }
 
-/* line 68, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 69, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 nav {
   position: absolute;
   z-index: 1;
   bottom: 0;
   left: 0;
   width: 100%; }
-  /* line 74, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 75, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   nav ul {
     display: flex;
     justify-content: center;
     font-size: 1.6em;
     margin: 0 0 10px; }
     @media screen and (max-width: 767px) {
-      /* line 74, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+      /* line 75, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
       nav ul {
         font-size: 1.3em; } }
-  /* line 81, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 82, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   nav li {
     flex: 0 0 160px;
     border-left: 1px solid rgba(68, 68, 68, 0.1); }
-    /* line 84, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 85, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     nav li:nth-last-child(1) {
       border-right: 1px solid rgba(68, 68, 68, 0.1); }
     @media screen and (max-width: 1024px) {
-      /* line 81, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+      /* line 82, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
       nav li {
         flex: 1 0; } }
-  /* line 89, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 90, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   nav a {
     display: block;
     text-align: center;
     line-height: 1.75em;
     border: none;
     color: #444; }
-    /* line 95, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 96, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     nav a:hover {
       color: rgba(68, 68, 68, 0.5); }
 
-/* line 100, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 101, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .landing {
   background: #000 url("/images/landing.jpg") no-repeat 50% 50%;
   background-size: cover;
   display: flex; }
-  /* line 104, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 105, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .landing img {
     display: inline-block;
     margin: auto;
@@ -618,110 +619,110 @@ nav {
     height: 100%;
     object-fit: contain; }
     @media screen and (max-width: 768px) {
-      /* line 104, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+      /* line 105, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
       .landing img {
         width: 160px;
         height: 100vh; } }
     @media screen and (max-width: 767px) {
-      /* line 104, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+      /* line 105, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
       .landing img {
         width: 110px; } }
-  /* line 116, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 117, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .landing nav li {
     border-left-color: rgba(255, 255, 255, 0.25); }
-    /* line 118, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 119, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .landing nav li:nth-last-child(1) {
       border-right-color: rgba(255, 255, 255, 0.25); }
-  /* line 120, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 121, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .landing nav a {
     color: #fff; }
-    /* line 122, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 123, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .landing nav a:hover {
       color: rgba(255, 255, 255, 0.5); }
 
 @media screen and (max-width: 1024px) {
-  /* line 127, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 128, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .about {
     height: auto; } }
-/* line 130, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 131, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .about header {
   background: #FED1BF; }
   @media screen and (max-width: 1024px) {
-    /* line 130, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 131, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .about header {
       position: sticky;
       top: 0;
       height: 100vh; } }
   @media screen and (max-width: 767px) {
-    /* line 130, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 131, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .about header {
       position: relative;
       height: auto;
       min-height: 100vh; } }
-/* line 140, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 141, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .about main {
   padding: 0px 90px; }
   @media screen and (max-width: 1024px) {
-    /* line 140, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 141, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .about main {
       padding: 60px; } }
   @media screen and (max-width: 767px) {
-    /* line 140, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 141, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .about main {
       padding: 20px;
       border-bottom: 1px solid #ccc; } }
-  /* line 147, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 148, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .about main h2, .about main p {
     text-align: justify; }
-/* line 149, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 150, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .about img {
   border-radius: 50%;
   margin-bottom: 10px; }
   @media screen and (max-width: 1024px) {
-    /* line 149, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 150, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .about img {
       width: 300px; } }
   @media screen and (max-width: 767px) {
-    /* line 149, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 150, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .about img {
       width: 240px; } }
 
-/* line 159, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 160, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .works {
   height: auto; }
-  /* line 161, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 162, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .works header {
     position: sticky;
     height: 100vh;
     top: 0; }
     @media screen and (max-width: 767px) {
-      /* line 161, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+      /* line 162, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
       .works header {
         position: relative;
         height: auto;
         min-height: 100vh; } }
-  /* line 169, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 170, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .works main {
     flex-wrap: wrap;
     scroll-snap-type: y mandatory;
     scroll-snap-align: start;
     scroll-snap-stop: always; }
 
-/* line 175, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 176, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .works-list {
   font-size: 1.8em;
   margin-left: 0; }
   @media screen and (max-width: 767px) {
-    /* line 175, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 176, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .works-list {
       font-size: 1.4em; } }
-  /* line 180, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 181, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .works-list a {
     display: block;
     line-height: 2em;
     border: none; }
 
-/* line 185, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 186, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .works-item {
   display: block;
   scroll-snap-align: start;
@@ -729,12 +730,12 @@ nav {
   height: 50vh;
   overflow: hidden;
   border: none; }
-  /* line 193, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 194, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .works-item:hover .works-image {
     transform: scale(1.1);
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9) inset; }
 
-/* line 197, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 198, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .works-image {
   position: absolute;
   top: 0;
@@ -749,7 +750,7 @@ nav {
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4) inset;
   transition: box-shadow 2.5s linear, transform 10s linear; }
 
-/* line 211, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 212, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .works-details {
   padding: 45px 45px;
   background: linear-gradient(-270deg, rgba(149, 224, 229, 0.5), rgba(149, 224, 229, 0.25));
@@ -759,72 +760,72 @@ nav {
   left: 0;
   width: 100%; }
   @media screen and (max-width: 767px) {
-    /* line 211, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 212, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .works-details {
       padding: 20px; } }
-  /* line 221, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 222, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .works-details h5, .works-details h2, .works-details p {
     color: #fff;
     text-shadow: 0 0 10px #000; }
-  /* line 224, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 225, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .works-details h5, .works-details h2 {
     margin-bottom: 10px; }
-  /* line 226, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 227, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .works-details p {
     margin: 0; }
 
-/* line 229, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 230, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 #google-station .works-image {
   background-image: url("/images/works-google-station.jpg"); }
 
-/* line 231, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 232, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 #google-alibaba .works-image {
   background-image: url("/images/works-google-alibaba.jpg"); }
 
-/* line 233, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 234, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 #northeastern-rhodes .works-image {
   background-image: url("/images/works-northeastern-rhodes.jpg"); }
 
-/* line 235, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 236, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 #nasa .works-image {
   background-image: url("/images/works-nasa.jpg"); }
 
-/* line 237, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 238, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 #marty-baron .works-image {
   background-image: url("/images/works-marty-baron.jpg"); }
 
-/* line 239, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 240, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 #disease .works-image {
   background-image: url("/images/works-disease.jpg"); }
 
-/* line 241, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 242, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 #immune .works-image {
   background-image: url("/images/works-immune.jpg"); }
 
-/* line 243, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 244, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 #northeastern-commercial .works-image {
   background-image: url("/images/works-northeastern-commercial.jpg"); }
 
-/* line 245, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 246, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 #northeastern-5k .works-image {
   background-image: url("/images/works-northeastern-5k.jpg"); }
 
-/* line 251, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 252, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .contact header {
   background: #95E0E5; }
-/* line 253, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 254, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .contact main {
   padding: 0 90px; }
   @media screen and (max-width: 767px) {
-    /* line 253, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+    /* line 254, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
     .contact main {
       padding: 20px; } }
 @media screen and (max-width: 767px) {
-  /* line 257, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 258, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .contact .field {
     padding-right: 0; } }
 
-/* line 261, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+/* line 262, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .send {
   display: inline-block;
   font-size: 1.4em;
@@ -850,6 +851,6 @@ nav {
     background: #85dbe1;
     box-shadow: #6cd4db 0 0 5px 0 inset;
     color: #535353; }
-  /* line 265, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
+  /* line 266, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .send:focus {
     outline-color: #95E0E5; }
