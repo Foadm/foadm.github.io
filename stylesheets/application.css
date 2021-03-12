@@ -505,24 +505,16 @@ body {
   min-height: 100%;
   background: #fafafa;
   overflow: scroll;
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
-  scroll-snap-stop: always; }
+  height: 100vh; }
   /* line 21, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   body.fix {
     display: inline-block;
     width: 100%; }
-  @media screen and (max-width: 767px) {
-    /* line 13, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
-    body {
-      scroll-snap-type: y proximity; } }
 
 /* line 30, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 section {
   min-height: 100vh;
   height: 100%;
-  scroll-snap-align: start;
   display: flex; }
   @media screen and (max-width: 767px) {
     /* line 30, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
@@ -703,10 +695,7 @@ nav {
         min-height: 100vh; } }
   /* line 170, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
   .works main {
-    flex-wrap: wrap;
-    scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
-    scroll-snap-stop: always; }
+    flex-wrap: wrap; }
 
 /* line 176, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .works-list {
@@ -725,7 +714,6 @@ nav {
 /* line 186, /Users/gubito/Sites/kendocreative/source/stylesheets/application.css.sass */
 .works-item {
   display: block;
-  scroll-snap-align: start;
   flex: 1 0 100%;
   height: 50vh;
   overflow: hidden;
